@@ -8,7 +8,7 @@
     overflow: hidden;
     background-color: red;
 }
-#navbar nav{
+#navbar a{
     float: left;
     color: #f2f2f2;
      text-align: center;
