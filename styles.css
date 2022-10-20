@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: yellowgreen;
 }
-#navbar{
+#navbar a{
     overflow: hidden;
     background-color: red;
+    margin: 0;
 }
 #navbar a{
     float: left;
@@ -17,5 +17,6 @@
   font-size: 17px;
 }
 #welcome-section{
-    background-color: red;
+    padding: 5px;
+    margin: auto;
 }
