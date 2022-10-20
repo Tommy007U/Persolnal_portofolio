@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+}
+#navbar{
+    overflow: hidden;
+    background-color: red;
+}
+#navbar nav{
+    float: left;
+    color: #f2f2f2;
+     text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#welcome-section{
+    background-color: red;
+}
