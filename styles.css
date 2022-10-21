@@ -2,16 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+}
+#navbar{
+    background-color: #00ff6a;
+    margin: 0;
+    padding: 14px 16px;
 }
 #navbar a{
     overflow: hidden;
     background-color: red;
-    margin: 0;
+    margin: 5px;
+    padding: 4px;
 }
 #navbar a{
-    float: left;
+    float: top;
     color: #f2f2f2;
-     text-align: center;
+     text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -19,4 +26,16 @@
 #welcome-section{
     padding: 5px;
     margin: auto;
+    background-color: aqua;
+    min-height: 100px;
+}
+#projects{
+    padding: 5px;
+    margin: auto;
+    background-color: blueviolet;
+}
+#profile-link{
+    padding: 5px;
+    margin: auto;
+    background-color: black;
 }
