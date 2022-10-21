@@ -5,37 +5,50 @@
     text-align: center;
 }
 #navbar{
-    background-color: #00ff6a;
+    background-color: hwb(144 7% 48%);
     margin: 0;
     padding: 14px 16px;
 }
 #navbar a{
     overflow: hidden;
-    background-color: red;
-    margin: 5px;
-    padding: 4px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 #navbar a{
     float: top;
-    color: #f2f2f2;
-     text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    color: hwb(144 7% 48%);
+    text-align: left;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px 0 25px 0;
+    
 }
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
 #welcome-section{
     padding: 5px;
     margin: auto;
-    background-color: aqua;
+    background-color: #083b3ba6;
     min-height: 100px;
 }
 #projects{
     padding: 5px;
     margin: auto;
     background-color: blueviolet;
+    min-height: 200px;
 }
 #profile-link{
     padding: 5px;
     margin: auto;
     background-color: black;
+    min-height: 40px;
+}
+a:hover{
+    color: rgb(0, 255, 98);
 }
